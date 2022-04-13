@@ -1,5 +1,4 @@
 import { useState } from "react";
-// import { uid } from "uid";
 
 import "./ExpenseList.css";
 import Card from "../UI/Card";
