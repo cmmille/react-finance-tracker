@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { uid } from "uid";
+// import { uid } from "uid";
 
 import "./ExpenseList.css";
 import Card from "../UI/Card";
@@ -8,7 +8,7 @@ import ExpensesFilter from "./ExpensesFilter";
 
 const ExpenseList = (props) => {
   
-  const expenses = props.expenses.expenses.sort((a,b)=>(a.date > b.date) ? 1 : -1);
+  const expenses = props.expenses.sort((a,b)=>(a.date < b.date) ? 1 : -1);
   const allYears = [...new Set(expenses.map(expense => expense.date.getFullYear()))].sort().reverse()
   const [filterYear, setFilterYear] = useState(-1);
 
@@ -32,7 +32,7 @@ const ExpenseList = (props) => {
         {(filterYear === -1 ? expenses : filteredExpenses).map((expense) => {
           return (
             <ExpenseItem
-              key={uid()}
+              key={expense.key}
               title={expense.title}
               date={expense.date}
               amount={expense.amount}
