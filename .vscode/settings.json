@@ -1,9 +1,0 @@
-{
-    "emmet.syntaxProfiles": {
-    
-    },
-    "emmet.includeLanguages": {
-        "ejs": "html",
-        "javascript": "javascriptreact"
-    }
-}
