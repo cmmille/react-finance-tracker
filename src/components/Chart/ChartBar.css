@@ -9,6 +9,7 @@
     height: 100%;
     width: 100%;
     border: 1px solid #313131;
+    box-shadow: inset 0 0 0 1px #313131;
     border-radius: 12px;
     background-color: #c3b4f3;
     overflow: hidden;
