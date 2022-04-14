@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/react-finance-tracker/static/css/main.0921afb2.chunk.css",
-    "main.js": "/react-finance-tracker/static/js/main.aab896f4.chunk.js",
-    "main.js.map": "/react-finance-tracker/static/js/main.aab896f4.chunk.js.map",
+    "main.css": "/react-finance-tracker/static/css/main.d6a27f0f.chunk.css",
+    "main.js": "/react-finance-tracker/static/js/main.368103b4.chunk.js",
+    "main.js.map": "/react-finance-tracker/static/js/main.368103b4.chunk.js.map",
     "runtime-main.js": "/react-finance-tracker/static/js/runtime-main.94d9c950.js",
     "runtime-main.js.map": "/react-finance-tracker/static/js/runtime-main.94d9c950.js.map",
-    "static/js/2.b445b0e6.chunk.js": "/react-finance-tracker/static/js/2.b445b0e6.chunk.js",
-    "static/js/2.b445b0e6.chunk.js.map": "/react-finance-tracker/static/js/2.b445b0e6.chunk.js.map",
+    "static/js/2.ab64f75a.chunk.js": "/react-finance-tracker/static/js/2.ab64f75a.chunk.js",
+    "static/js/2.ab64f75a.chunk.js.map": "/react-finance-tracker/static/js/2.ab64f75a.chunk.js.map",
     "index.html": "/react-finance-tracker/index.html",
-    "static/css/main.0921afb2.chunk.css.map": "/react-finance-tracker/static/css/main.0921afb2.chunk.css.map",
-    "static/js/2.b445b0e6.chunk.js.LICENSE.txt": "/react-finance-tracker/static/js/2.b445b0e6.chunk.js.LICENSE.txt"
+    "static/css/main.d6a27f0f.chunk.css.map": "/react-finance-tracker/static/css/main.d6a27f0f.chunk.css.map",
+    "static/js/2.ab64f75a.chunk.js.LICENSE.txt": "/react-finance-tracker/static/js/2.ab64f75a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.94d9c950.js",
-    "static/js/2.b445b0e6.chunk.js",
-    "static/css/main.0921afb2.chunk.css",
-    "static/js/main.aab896f4.chunk.js"
+    "static/js/2.ab64f75a.chunk.js",
+    "static/css/main.d6a27f0f.chunk.css",
+    "static/js/main.368103b4.chunk.js"
   ]
 }
