@@ -23,6 +23,10 @@ const ExpenseList = (props) => {
     setFilterYear(parseInt(filterValue));
   }
 
+  function deleteHandler(key) {
+    props.onDelete(key)
+  }
+
   const passedExpenses = (filterYear === -1 ? expenses : filteredExpenses)
 
   return (
@@ -34,13 +38,16 @@ const ExpenseList = (props) => {
           filterOptions={allYears}
         />
         <ExpensesChart expenses={passedExpenses} />
+        {expenses.length <= 0 && <p className="placeholder-text">Add expenses to get started.</p>}
         {passedExpenses.map((expense) => {
           return (
             <ExpenseItem
+              id={expense.key}
               key={expense.key}
               title={expense.title}
               date={expense.date}
               amount={expense.amount}
+              onDelete = {deleteHandler}
             />
           );
         })}
